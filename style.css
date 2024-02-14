@@ -79,3 +79,81 @@ header  {
 .body3 {
     background-color: #29072F;
 }
+
+.body4 {
+    background-color: #FEE600;
+}
+
+.body5 {
+    background-color: #FEE600;
+}
+
+.abelhaestudante1 {
+    float: right; /* Faz com que a imagem flutue à direita */
+    width: 30%; 
+    margin-top: 45px;
+}
+
+.parabens {
+    float: left; /* Faz com que o texto flutue à esquerda */
+    width: 50%; /* Ajusta a largura do texto principal */
+    font-size: 100px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.abelhaestudante2 {
+    float: right; /* Faz com que a imagem flutue à direita */
+    width: 30%; 
+    margin-top: 45px;
+}
+
+.ohnao {
+    float: left; /* Faz com que o texto flutue à esquerda */
+    width: 50%; /* Ajusta a largura do texto principal */
+    font-size: 90px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao2 {
+    float: left; /* Faz com que a imagem flutue à direita */
+    width: 15%; 
+    margin-left: -450px;
+    justify-content: left;
+    margin: 45px;
+    margin-top: -40px;
+    padding: 20px 20px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.pergunta {
+    color: white;
+    display: flex;
+    justify-content: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botaotrue {
+    background-color: #FEE600;
+    float: left;
+    margin: 100px;
+    padding: 100px;
+    border-radius: 10px;
+    
+}
+
+.botaofalse {
+    background-color: #FEE600;
+    float: right;
+    margin: 100px;
+    padding: 130px;
+    height: 10px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
