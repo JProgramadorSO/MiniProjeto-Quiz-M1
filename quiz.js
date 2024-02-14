@@ -67,3 +67,48 @@ const quiz = [
 ];
 
 let perguntaAtual = 0;
+
+function exibirPergunta() {
+    while (perguntaAtual < quiz.length) {
+        const respostaUsuario = prompt(quiz[perguntaAtual].pergunta + "\nDigite 'verdadeiro' ou 'falso':").toLowerCase();
+
+        if (respostaUsuario === 'verdadeiro' || respostaUsuario === 'falso') {
+            const resposta = respostaUsuario === 'verdadeiro';
+            verificarResposta(resposta);
+            break;
+        } else {
+            alert("Por favor, digite 'verdadeiro' ou 'falso'.");
+        }
+    }
+
+    if (perguntaAtual === quiz.length) {
+        // Fim do quiz
+        alert("Quiz Concluído!");
+    }
+}
+
+function verificarResposta(resposta) {
+    if (resposta === quiz[perguntaAtual].resposta) {
+        // Resposta correta
+        alert("Resposta Correta!");
+    } else {
+        // Resposta incorreta
+        alert("Resposta Incorreta!");
+        window.location.href = "ohnao.html";
+        return; // Para evitar que o código continue após o redirecionamento
+    }
+
+    // Verifica se todas as perguntas foram respondidas
+    if (perguntaAtual === quiz.length - 1) {
+        // Todas as perguntas foram respondidas corretamente, redireciona para 'Parabens'
+        alert("Parabéns! Todas as perguntas foram respondidas corretamente. ");
+        window.location.href = "parabens.html";
+    } else {
+        // Passa para a próxima pergunta
+        perguntaAtual++;
+        exibirPergunta();
+    }
+}
+
+// Inicializa a exibição da primeira pergunta
+exibirPergunta();
