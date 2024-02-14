@@ -1,0 +1,81 @@
+.body1 {
+    background-color: #FEE600;
+}
+
+.titulo {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+
+header  {
+   font-weight: bold;
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #29072F;
+   height: 100px;
+   padding: 5px;
+   margin-top: -10px;
+   margin-left: px;
+   margin: -10px;
+   border-color: black;
+
+}
+
+.logo {
+    height: 60px;
+    margin-left: 1350px;
+    margin-top: -100px;
+    border-radius: 25px;
+}
+
+.textoprincipal {
+    float: left; /* Faz com que o texto flutue à esquerda */
+    width: 70%; /* Ajusta a largura do texto principal */
+    margin-right: 20px; 
+    font-size: 100px;
+    margin-left: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+
+.abelhaestudante {
+    float: right; /* Faz com que a imagem flutue à direita */
+    width: 30%; 
+    margin-top: -350px;
+
+}
+
+.textodebaixo {
+    float: left; /* Faz com que o texto flutue à esquerda */
+    width: 45%; /* Ajusta a largura do texto principal */
+    margin-right: 100px; 
+    font-size: 35px;
+    margin-top: -10px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.botao1 {
+    float: left; /* Faz com que a imagem flutue à direita */
+    width: 15%; 
+    margin-left: -450px;
+    justify-content: left;
+    margin: 25px;
+    padding: 20px 20px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.body2 {
+    background-color: black;
+}
+
+.body3 {
+    background-color: #29072F;
+}
