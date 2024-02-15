@@ -30,8 +30,8 @@ header  {
 }
 
 .textoprincipal {
-    float: left; 
-    width: 70%; 
+    float: left; /* Faz com que o texto flutue à esquerda */
+    width: 70%; /* Ajusta a largura do texto principal */
     margin-right: 20px; 
     font-size: 100px;
     margin-left: 30px;
@@ -40,15 +40,15 @@ header  {
 }
 
 .abelhaestudante {
-    float: right;
+    float: right; /* Faz com que a imagem flutue à direita */
     width: 30%; 
     margin-top: -350px;
 
 }
 
 .textodebaixo {
-    float: left; 
-    width: 45%;
+    float: left; /* Faz com que o texto flutue à esquerda */
+    width: 45%; /* Ajusta a largura do texto principal */
     margin-right: 100px; 
     font-size: 35px;
     margin-top: -10px;
@@ -58,7 +58,7 @@ header  {
 }
 
 .botao1 {
-    float: left; 
+    float: left; /* Faz com que a imagem flutue à direita */
     width: 15%; 
     margin-left: -450px;
     justify-content: left;
@@ -89,35 +89,35 @@ header  {
 }
 
 .abelhaestudante1 {
-    float: right;
+    float: right; /* Faz com que a imagem flutue à direita */
     width: 30%; 
     margin-top: 45px;
 }
 
 .parabens {
-    float: left;
-    width: 50%; 
+    float: left; /* Faz com que o texto flutue à esquerda */
+    width: 50%; /* Ajusta a largura do texto principal */
     font-size: 100px;
     margin-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .abelhaestudante2 {
-    float: right;
+    float: right; /* Faz com que a imagem flutue à direita */
     width: 30%; 
     margin-top: 45px;
 }
 
 .ohnao {
-    float: left;
-    width: 50%; 
+    float: left; /* Faz com que o texto flutue à esquerda */
+    width: 50%; /* Ajusta a largura do texto principal */
     font-size: 90px;
     margin-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .botao2 {
-    float: left; 
+    float: left; /* Faz com que a imagem flutue à direita */
     width: 15%; 
     margin-left: -450px;
     justify-content: left;
@@ -178,12 +178,12 @@ header  {
  
 }
 
-
+/* Adicione ao seu arquivo styles.css */
 
 
 
 .h1revisao {
-    display: inline-block; 
+    display: inline-block; /* Faz o elemento h1 comportar-se como um bloco em linha */
     color: #FEE600;
     justify-content: center;
     display: flex;
@@ -204,7 +204,7 @@ header  {
 .html,
 .css,
 .java {
-    display: inline-block; 
+    display: inline-block; /* Faz os elementos h2 comportarem-se como blocos em linha */
     color: white;
     margin: 5px;
     margin-left: 80px;
@@ -214,9 +214,9 @@ header  {
 .ul1,
 .ul2,
 .ul3 {
-    display: inline-block; 
-    vertical-align: top; 
-    margin-left: 20px; 
+    display: inline-block; /* Faz os elementos ul comportarem-se como blocos em linha */
+    vertical-align: top; /* Alinha-os ao topo para manter o alinhamento correto */
+    margin-left: 20px; /* Adiciona espaço entre as ul e os h2 */
     color: #FEE600;
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -253,3 +253,78 @@ h2 {
     font-weight: bold;
     font-size: medium;
 }
+
+
+/*
+.certo1 {
+    display: flex;
+    width: 50px;
+    
+}
+
+.certo2 {
+    display: flex;
+    width: 50px;
+    justify-content: center;
+}
+
+.certo3 {
+    display: flex;
+    width: 50px;
+    justify-content: right;
+}
+
+
+.html {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+    justify-content: left;
+   float: left;
+}
+
+.css {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+    display: flexbox;
+    justify-content: center;
+}
+
+.java {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+    display: flexbox;
+    justify-content: right;
+    float: right;
+}
+
+.ul1 {
+    color: #FEE600;
+   justify-content: left;
+   float: left;
+   margin: 50px;
+}
+
+.ul2 {
+    display: flexbox;
+    justify-content: center;
+    color: #FEE600;
+    margin: 100px;
+}
+
+.ul3 {
+    color: #FEE600;
+    display: flexbox;
+    justify-content: right;
+    float: right;
+    margin: 40px;
+}
+
+*/
+
+
+
+
+
