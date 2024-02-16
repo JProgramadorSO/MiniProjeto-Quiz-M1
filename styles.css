@@ -70,6 +70,12 @@ header  {
     border: 2px solid white;
     font-weight: bold;
     font-size: medium;
+    
+}
+
+.botao1:hover {
+    background-color:  #FAFAD2;
+    
 }
 
 .body2 {
@@ -130,6 +136,12 @@ header  {
     border: 2px solid white;
     font-weight: bold;
     font-size: medium;
+    
+}
+
+.botao2:hover {
+    background-color:  #FAFAD2;
+    
 }
 
 .pergunta {
@@ -252,8 +264,34 @@ h2 {
     border: 2px solid white;
     font-weight: bold;
     font-size: medium;
+    
+    
 }
 
+a{
+    text-decoration: none;
+}
+
+.botao3:hover {
+    background-color: #FAFAD2;
+    
+}
+
+
+/*
+float: left; /* Faz com que a imagem flutue à direita 
+width: 15%; 
+margin-left: -450px;
+justify-content: left;
+margin: 25px;
+padding: 20px 20px;
+color: black;
+background-color: white;
+border-radius: 20px;
+border: 2px solid white;
+font-weight: bold;
+font-size: medium;
+*/
 
 /*
 .certo1 {
