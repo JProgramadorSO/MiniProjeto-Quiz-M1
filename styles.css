@@ -171,6 +171,12 @@ header  {
     
 }
 
+.botaotrue:hover {
+    background-color: var(--cor-terciaria);
+    
+}
+
+
 .botaofalse {
     background-color: var(--cor-primaria);
     float: right;
@@ -181,11 +187,19 @@ header  {
     border-radius: 10px;
 }
 
+.botaofalse:hover {
+    background-color: var(--cor-terciaria);
+    
+}
+
+
+
 .botoes {
     justify-content: space-between;
     margin: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 .header1 {
     font-weight: bold;
