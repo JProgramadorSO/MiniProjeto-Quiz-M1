@@ -1,5 +1,16 @@
+:root {
+    --cor-primaria: #FEE600;
+    --cor-secundaria: #fff;
+    --cor-terciaria: #FAFAD2;
+    --cor-hover: #000;
+    --cor-quartenaria: #29072F;
+}
+
+
+
+
 .body1 {
-    background-color: #FEE600;
+    background-color: var(--cor-primaria);
 }
 
 .titulo {
@@ -10,16 +21,15 @@
 
 header  {
    font-weight: bold;
-   color: white;
+   color: var(--cor-secundaria);
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   background-color: #29072F;
+   background-color: var(--cor-quartenaria);
    height: 100px;
    padding: 5px;
    margin-top: -10px;
    margin-left: px;
    margin: -10px;
-   border-color: black;
-
+   border-color: var(--cor-hover);
 }
 
 .logo {
@@ -64,34 +74,35 @@ header  {
     justify-content: left;
     margin: 25px;
     padding: 20px 20px;
-    color: black;
-    background-color: white;
+    color: var(--cor-hover);
+    background-color: var(--cor-secundaria);
     border-radius: 20px;
-    border: 2px solid white;
+    border: 2px solid var(--cor-secundaria);
     font-weight: bold;
     font-size: medium;
     
 }
 
 .botao1:hover {
-    background-color:  #FAFAD2;
+    background-color:  var(--cor-terciaria);
     
 }
 
 .body2 {
-    background-color: black;
+    background-color: var(--cor-hover);
 }
 
 .body3 {
-    background-color: #29072F;
+    background-color: var(--cor-quartenaria);
 }
 
 .body4 {
-    background-color: #FEE600;
+    background-color: var(--cor-primaria);
 }
 
+
 .body5 {
-    background-color: #FEE600;
+    background-color: var(--cor-primaria);
 }
 
 .abelhaestudante1 {
@@ -130,29 +141,29 @@ header  {
     margin: 45px;
     margin-top: -40px;
     padding: 20px 20px;
-    color: black;
-    background-color: white;
+    color: var(--cor-hover);
+    background-color: var(--cor-secundaria);
     border-radius: 20px;
-    border: 2px solid white;
+    border: 2px solid var(--cor-secundaria);
     font-weight: bold;
     font-size: medium;
     
 }
 
 .botao2:hover {
-    background-color:  #FAFAD2;
+    background-color: var(--cor-terciaria);
     
 }
 
 .pergunta {
-    color: white;
+    color: var(--cor-secundaria);
     display: flex;
     justify-content: center;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .botaotrue {
-    background-color: #FEE600;
+    background-color: var(--cor-primaria);
     float: left;
     margin: 100px;
     padding: 100px;
@@ -161,7 +172,7 @@ header  {
 }
 
 .botaofalse {
-    background-color: #FEE600;
+    background-color: var(--cor-primaria);
     float: right;
     margin: 100px;
     padding: 130px;
@@ -178,15 +189,15 @@ header  {
 
 .header1 {
     font-weight: bold;
-    color: black;
+    color: var(--cor-hover);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #FEE600;
+    background-color: var(--cor-primaria);
     height: 100px;
     padding: 5px;
     margin-top: -10px;
     margin-left: px;
     margin: -10px;
-    border-color: black;
+    border-color: var(--cor-hover);
  
 }
 
@@ -196,7 +207,7 @@ header  {
 
 .h1revisao {
     display: inline-block; /* Faz o elemento h1 comportar-se como um bloco em linha */
-    color: #FEE600;
+    color: var(--cor-primaria);
     justify-content: center;
     display: flex;
     height: 100px;
@@ -217,7 +228,7 @@ header  {
 .css,
 .java {
     display: inline-block; /* Faz os elementos h2 comportarem-se como blocos em linha */
-    color: white;
+    color: var(--cor-secundaria);
     margin: 5px;
     margin-left: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -229,7 +240,7 @@ header  {
     display: inline-block; /* Faz os elementos ul comportarem-se como blocos em linha */
     vertical-align: top; /* Alinha-os ao topo para manter o alinhamento correto */
     margin-left: 20px; /* Adiciona espaço entre as ul e os h2 */
-    color: #FEE600;
+    color: var(--cor-primaria);
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -258,10 +269,10 @@ h2 {
     margin-top: 15px;
     margin-left: 620px;
     padding: 20px 20px;
-    color: black;
-    background-color: white;
+    color: var(--cor-hover);
+    background-color: var(--cor-secundaria);
     border-radius: 20px;
-    border: 2px solid white;
+    border: 2px solid var(--cor-secundaria);
     font-weight: bold;
     font-size: medium;
     
@@ -273,7 +284,7 @@ a{
 }
 
 .botao3:hover {
-    background-color: #FAFAD2;
+    background-color: var(--cor-terciaria);
     
 }
 
