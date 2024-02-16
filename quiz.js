@@ -18,7 +18,7 @@ const quiz = [
 
     {
         pergunta: "A tag <main> é usada para representar o conteúdo principal de um documento HTML.",
-        resposta: false
+        resposta: true
 
     },
 
